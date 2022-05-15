@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "lib": ["ES2020", "DOM"],
+
+    "rootDir": "src",
+    "outDir": "dist",
+
+    "strict": true,
+    "alwaysStrict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "esModuleInterop": true,
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "declaration": true,
+
+    "pretty": true
+  },
+  "include": [
+    "src/**/*",
+    "types/**/*"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "@aredridel/svelte-lens-store",
+  "version": "1.0.1",
+  "description": "Functional lenses over svelte stores",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "vitest --run",
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aredridel/svelte-lens-store.git"
+  },
+  "keywords": [
+    "svelte",
+    "store",
+    "functional",
+    "lens"
+  ],
+  "type": "module",
+  "author": {
+    "name": "Aria Stewart",
+    "email": "aredridel@dinhe.net"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aredridel/svelte-lens-store/issues"
+  },
+  "homepage": "https://github.com/aredridel/svelte-lens-store#readme",
+  "private": false,
+  "files": [
+    "./bin/*",
+    "./dist/*"
+  ],
+  "typings": "./dist/index.d.ts",
+  "dependencies": {
+    "svelte": "^3.48.0"
+  },
+  "devDependencies": {
+    "typescript": "4.6.4",
+    "vitest": "^0.12.6"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    }
+  }
+}
